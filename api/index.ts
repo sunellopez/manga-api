@@ -4,7 +4,7 @@ const bodyParser = require("body-parser")
 const mangaRouter = require("../routes/mangaRouter")
 const mangaListRouter = require("../routes/mangaListRouter")
 const mangaSearch = require("../routes/mangaSearch")
-const cors = require('cors'); // Importa el módulo cors
+const cors = require("cors"); // Importa el módulo cors
 
 app.use(cors());
 app.use(bodyParser.json())
